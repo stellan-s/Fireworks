@@ -9,7 +9,7 @@ class Particle {
       this.vel = createVector(random(-2, 2), random(-6, -12));
     } else {
       this.vel = p5.Vector.random2D();
-      this.vel.mult(random(25));
+      this.vel.mult(random(12));
     }
     this.acc = createVector(0, 0);
 
